@@ -1,0 +1,150 @@
+﻿English,简体中文
+App group: %@ (entitled: %@),App Group：%@（签名权限：%@）
+Cannot list this folder,无法列出此文件夹
+Not found,未找到
+Only empty folders can be deleted,只能删除空文件夹
+Invalid name,名称无效
+An item with that name already exists,已存在同名项目
+Cannot read the source folder,无法读取源文件夹
+with errors,存在错误
+Out of memory,内存不足
+Cannot read this file.,无法读取此文件。
+Not a valid property list,不是有效的属性列表
+Check the XML.,请检查 XML。
+Cannot encode,无法编码
+Save changes?,保存更改？
+Save failed,保存失败
+New Folder,新建文件夹
+Import File,导入文件
+Copy Path,复制路径
+File Backups,文件备份
+App Backups,应用备份
+Cannot open this folder,无法打开此文件夹
+"This method only opens containers. Use App Data, App Groups, Extension Data, Internal Daemons or System Groups for the folders inside /private/var.",此方式只能打开容器。若要访问 /private/var 内的文件夹，请使用“应用数据”“应用组”“扩展数据”“内部守护进程”或“系统组”。
+Restore to Original Location,恢复到原始位置
+Copy Identifier,复制标识符
+Unknown error,未知错误
+Cannot create folder,无法创建文件夹
+Cannot rename,无法重命名
+Only empty folders can be deleted.,只能删除空文件夹。
+A copy is kept in Backups.,副本已保存在“备份”中。
+"Delete ""%@""?",确定删除“%@”？
+Cannot delete,无法删除
+Write this backup back to,将此备份恢复到
+"If a file is there now, it is backed up first.",如果目标位置已有文件，会先备份该文件。
+Restore failed,恢复失败
+Import failed,导入失败
+Replace existing file?,替换现有文件？
+System Groups,系统组
+This folder cannot be listed on this iOS version. Known names that exist are shown; tap + to try another name.,此 iOS 版本无法列出此文件夹。当前显示已知且存在的名称；轻点“+”可尝试其他名称。
+Open System Group,打开系统组
+Cache Cleaner,缓存清理
+Search apps,搜索应用
+Select All,全选
+Select None,取消全选
+Select Large Caches (50 MB+),选择大型缓存（50 MB 以上）
+Crash Logs,崩溃日志
+"Clears each app's Library/Caches and tmp. Apps rebuild their caches as you use them; some keep offline content (music, maps, downloads) there and will download it again. No backup is kept.",清除各应用的 Library/Caches 和 tmp。应用会在使用过程中重新生成缓存；部分应用会在此保存离线内容（音乐、地图、下载文件），清除后可能需要重新下载。此操作不会保留备份。
+Show Crash Logs in File Browser,在文件浏览器中显示崩溃日志
+Show Caches in File Browser,在文件浏览器中显示缓存
+Show tmp in File Browser,在文件浏览器中显示临时文件
+Show App Data in File Browser,在文件浏览器中显示应用数据
+"Delete the cache and temp files of %lu item%@, about %@? This cannot be undone.",确定删除 %lu 个项目（%@）的缓存和临时文件吗？预计释放 %@。此操作无法撤销。
+Clean caches?,清理缓存？
+Cleaning %lu of %lu: %@,正在清理：%lu / %lu：%@
+Freed %@.%@,已释放 %@.%@
+ Some items could not be removed (see Log)., 部分项目无法删除（请查看日志）。
+Before restore,恢复前
+"Tap an app to back up, restore or clear its data. Close the app first (swipe it away in the app switcher). Backups are stored in WQFiles/AppBackups and are visible in the Files app.",轻点应用即可备份、恢复或清除其数据。请先关闭该应用（在应用切换器中向上滑动将其划掉）。备份保存在 WQFiles/AppBackups 文件夹中，可在“文件”App 里查看。
+Back Up Data,备份数据
+Restore Backup (%@),恢复备份（%@）
+Open Data Folder,打开数据文件夹
+Backed up,已备份
+Backup failed,备份失败
+Data cleared,数据已清除
+Partly cleared,部分清除
+Freed about %@.%@ Open %@ to start fresh.,已释放约 %@.%@。打开 %@ 即可重新开始使用。
+Clear %@?,确定清除 %@？
+"Deletes everything in the app's Documents, Library and tmp, like a fresh install. Logins, settings and offline content are lost. Close the app first.",删除该应用 Documents、Library 和 tmp 中的全部内容，相当于重新安装。登录状态、设置和离线内容都会丢失。请先关闭应用。
+Not cleared,未清除
+"The backup did not complete, so nothing was deleted.",备份未完成，因此没有删除任何内容。
+Clear Without Backup,不备份，直接清除
+Restore which backup?,选择要恢复的备份
+This backup was made by an older WQ Files that couldn't tell whether it was complete.,此备份由较旧版本的 WQ Files 创建，旧版本无法确认备份是否完整。
+Restore %@?,确定恢复 %@？
+"Replaces the app's current Documents and Library with the backup from %@. The current data is backed up first, and put back if anything fails. Close the app first.%@",使用 %@ 中的备份替换应用当前的 Documents 和 Library。替换前会先备份当前数据；如果操作失败，会尝试恢复原数据。请先关闭应用。%@
+Not restored,未恢复
+The backup's %@ can't be read. Nothing was changed.,无法读取备份中的 %@。未更改任何内容。
+The backup is empty. Nothing was changed.,备份为空，未更改任何内容。
+The current data couldn't be backed up first (%@). Nothing was changed.,无法先备份当前数据（%@），未更改任何内容。
+Some files couldn't be written,部分文件无法写入
+WQ Files,WQ 文件
+App Data,应用数据
+App Groups,应用组
+Extension Data,扩展数据
+Internal Daemons,内部守护进程
+System Data,系统数据
+No App Group,没有 App Group 权限
+This app needs an App Group to reach other folders. Re-sign it with a tool that keeps the App Group entitlement.,此应用需要 App Group 权限才能访问其他文件夹。请使用能够保留 App Group 权限的工具重新签名。
+WQ Files by kolbicz,WQ Files（作者：kolbicz）
+Overwritten and deleted files are copied to Backups first (also visible in the Files app). Long-press a backup to restore it.,覆盖或删除文件前，会先将副本保存到“备份”中（也可在“文件”App 中查看）。长按备份即可恢复。
+Go to Path,前往路径
+A folder or file path,输入文件夹或文件路径
+Cannot share,无法分享
+Copy failed,复制失败
+Compressing the folder,正在压缩文件夹
+Could not create the ZIP,无法创建 ZIP 压缩包
+Cannot create the backup folder,无法创建备份文件夹
+Cannot access %@,无法访问 %@
+Cannot write the backup manifest,无法写入备份清单
+App Store,App Store
+Voice Memos,语音备忘录
+Find My,查找
+Game Center,游戏中心
+Image Playground,图乐园
+Find iPhone,查找 iPhone
+Apple Store,Apple Store
+Apple Support,Apple 支持
+Wallpaper (Mercury),墙纸（Mercury）
+Wallpaper Collections,墙纸图库
+Photo Wallpaper,照片墙纸
+Apple Media Services,Apple 媒体服务
+Assistive Access Camera,辅助访问相机
+Assistive Access Photos,辅助访问照片
+Voice Assistant,语音助手
+Screen Time,屏幕使用时间
+Remote Setup,远程设置
+Apple Account,Apple 账户
+Account Sign-In,账户登录
+App Store Sheets,App Store 弹窗
+New Device Setup,新设备设置
+Media Picker,媒体选择器
+Smart Card,智能卡
+Call Screen,通话界面
+Safari View,Safari 视图
+Message Compose,信息编辑
+Music Recognition,音乐识别
+Font Install,字体安装
+Continuity Markup,连续互通标记
+Apple Cash Stickers,Apple Cash 贴纸
+Apple TV Setup,Apple TV 设置
+Companion Setup,配套设备设置
+CarPlay Wallpaper,CarPlay 墙纸
+iCloud Sharing,iCloud 共享
+Enhanced Logging,增强日志记录
+Privacy Prompts,隐私提示
+Content Filter,内容过滤器
+Quick Note,快速备忘录
+Data Detectors,数据检测器
+Apple Pay,Apple Pay
+Wi-Fi Login,Wi-Fi 登录
+Tire Pressure,轮胎压力
+Messages Alerts,信息提醒
+Accessory Source,配件来源
+Print Center,打印中心
+Code Scanner,代码扫描器
+Widget Snapshots,小组件快照
+Car Radio,车载收音机
+Wallet Sheets,钱包弹窗
+"Backup of the current file failed, nothing was written",当前文件备份失败，未写入任何内容
+Could not empty %@,无法清空 %@
