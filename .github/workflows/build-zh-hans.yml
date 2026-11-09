@@ -1,0 +1,37 @@
+name: Build WQFiles Simplified Chinese IPA
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout official WQFiles v0.3 source
+        uses: actions/checkout@v4
+        with:
+          repository: kolbicz/WQFiles
+          ref: v0.3
+          path: source
+      - name: Checkout this repository (Chinese patch)
+        uses: actions/checkout@v4
+        with:
+          path: patch
+      - name: Apply Simplified Chinese translations
+        run: |
+          cp patch/zh-Hans.json source/zh-Hans.json
+          cp patch/translation.csv source/translation.csv
+          cp patch/apply_zh_hans.py source/apply_zh_hans.py
+          cd source
+          python3 apply_zh_hans.py
+      - name: Build arm64 IPA
+        run: cd source && chmod +x ./build.sh && ./build.sh
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WQFiles-v0.3-zh-Hans-ad-hoc-IPA
+          path: source/WQFiles.ipa
+          if-no-files-found: error
+          retention-days: 7
